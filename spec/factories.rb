@@ -5,6 +5,5 @@ FactoryBot.define do
 
   factory :greeting do
     message { Faker::Lorem.sentence }
-  end  
+  end
 end
-
